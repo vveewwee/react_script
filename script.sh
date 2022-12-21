@@ -5,6 +5,7 @@ GREEN='\033[1;32m'
 NORM='\033[0m'
 
 npx create-react-app $1
+cd $1
 npm add react-router-dom
 npm add styled-components
 npm i --save @fortawesome/fontawesome-svg-core
@@ -21,4 +22,4 @@ npm install axios
 
 echo  "${RED} $1 file is created ${NORMAL}"
 echo  "${GREEN} Now opening $1 on VS Code 2${NORMAL}"
-open -a Visual\ Studio\ Code\ 2 $1
+open -a Visual\ Studio\ Code\ 2 .
