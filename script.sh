@@ -12,7 +12,8 @@ npm i --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/react-fontawesome
 npm install  --save-dev jsdoc
-#npm install --save-dev redux
+#npm i redux@4.0
+#npm install -save redux
 #npm install -save react-redux
 #npm install --save-dev redux-devtools
 npm install axios
